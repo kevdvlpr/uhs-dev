@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --accent-color: #008037;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    height: 110px;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar li a {
+    color: #212529;
+    font-size: 18px;
+}
+
+.navbar li a:hover {
+    color: var(--accent-color);
+}
+
+.h3-sub {
+    color: #3D9E66;
+}
+
+.hero {
+    background: url('../images/bg-hero-v2.jpg') no-repeat 50% 100% / cover;
+    min-height: 90vh !important;
+}
+
+.about {
+    background: linear-gradient(0deg, rgba(13, 110, 253, 0.8), rgba(13, 110, 253, 0.8)), url('../images/background-overlay-2.jpg') no-repeat center center / cover;
+}
+
+.uhs p {
+    width: 95%;
+
+}
+
+.cta {
+    /* background: rgb(61, 158, 102); */
+    background: linear-gradient(0deg, rgba(0, 128, 55, 0.8), rgba(0, 128, 55, 0.8)), url('../images/background-overlay-3.jpg') no-repeat center center / cover;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.bg-accent {
+    background-color: var(--accent-color);
+}
+
+.about .container .row {
+    margin-top: -120px;
+}
+
+/* mso css */
+
+.mso-services {
+    background: linear-gradient(0deg, rgba(13, 110, 253, 0.8), rgba(13, 110, 253, 0.8)), url('../images/background-overlay-2.jpg') no-repeat center center / cover;
+}
+
+.mso-services .card {
+    min-height: 210px !important;
+}
+
+/* .latest-news {
+    background: linear-gradient(0deg, rgba(13, 110, 253, 0.5), rgba(13, 110, 253, 0.5)), url('../images/bg-overlay-v10.jpg') no-repeat center center / cover;
+} */
+
+footer li a:hover {
+    color: var(--accent-color) !important;
+}
+
+footer .social-icons i {
+    color: #fff !important;
+    font-size: 22px;
+}
+
+footer .social-icons i:hover {
+    color: var(--accent-color) !important;
+}
+
+@media (max-width:480px) {
+    #footer>div>div>div.col-md-4.ps-5 {
+        padding-left: 12px !important;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+}
