@@ -43,7 +43,7 @@ a {
 }
 
 .uhs p {
-    width: 95%;
+    /* width: 95%; */
 
 }
 
@@ -84,14 +84,32 @@ footer li a:hover {
 
 footer .social-icons i {
     color: #fff !important;
-    font-size: 22px;
+    font-size: 28px;
 }
 
 footer .social-icons i:hover {
     color: var(--accent-color) !important;
 }
 
+@media (max-width: 768px) {
+    .hero {
+        background: url('../images/tablet-hero-bg.jpg') no-repeat 0% 100% / cover;
+    }
+}
+
 @media (max-width:480px) {
+    .hero {
+        min-height: 0 !important;
+    }
+
+    .about .container .row {
+        margin-top: 0;
+    }
+
+    .w-75 {
+        width: 100% !important;
+    }
+
     #footer>div>div>div.col-md-4.ps-5 {
         padding-left: 12px !important;
         padding-bottom: 2rem;
